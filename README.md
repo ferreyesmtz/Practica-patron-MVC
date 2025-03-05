@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Practica del patrón MVC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El objetivo de esta actividad es que desarrolles tu capacidad de abstracción y modelado para analizar un diagrama de clases UML y programarlo utilizando el patrón de diseño MVC. El trabajo se realizará en pares, aunque la evaluación incluirá un análisis individual del desempeño de cada estudiante.
 
-## Available Scripts
+## Diagrama UML
+![image](https://github.com/user-attachments/assets/8dd95235-9d42-4ac1-a537-2c7f6f1da4c8)
 
-In the project directory, you can run:
 
-### `npm start`
+## Criterios de evaluación del diseño del sistema (patrón MVC):
+La lógica del sistema debe estar organizada en distintas carpetas, siguiendo una estructura clara. Por ejemplo: <br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Vistas <br />
+Controladores <br />
+Modelo <br />
+Objetos <br />
+Clases DAO <br />
+Conexión a la base de datos <br />
+Otras carpetas que consideres necesarias, como credenciales, imágenes o interfaces asociadas a un grupo específico.
+Nombres de variables y componentes: Deben ser claros y descriptivos. Evita nombres ambiguos como 'a', 'i', 'contador1', etc. <br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsabilidad única: Cada controlador debe tener una única responsabilidad bien definida. <br />
 
-### `npm test`
+Modularidad del código: Las funciones dentro de las clases deben estar correctamente moduladas. Evita crear funciones excesivamente largas o código desordenado (código espagueti). <br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Separar la clases en archivos distintitos. Evita colocar varias clases en un solo archivo. <br />
+Justificación del diseño: Se evaluará una presentación breve en la que expliques las relaciones entre las clases de tu diagrama UML. <br />
