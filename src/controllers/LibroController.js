@@ -1,8 +1,11 @@
 import { db } from '../firebaseConfig.js';
 import { collection, getDocs, addDoc, doc, updateDoc } from "firebase/firestore";
-import Libro from "../models/Libro.js";
 
 class LibroController {
+  constructor() {
+    this.bookRef = collection(db, "Libros");
+  }
+
   // Esta funcion agrega un libro a la base de datos
     static async agregarLibro(libro) {
         try {
