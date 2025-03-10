@@ -15,7 +15,8 @@ La lógica del sistema debe estar organizada en distintas carpetas, siguiendo un
   - Objetos <br />
   - Clases DAO <br />
 - Conexión a la base de datos <br />
-Otras carpetas que consideres necesarias, como credenciales, imágenes o interfaces asociadas a un grupo específico.
+- Otras carpetas que consideres necesarias, como credenciales, imágenes o interfaces asociadas a un grupo específico.
+
 Nombres de variables y componentes: Deben ser claros y descriptivos. Evita nombres ambiguos como 'a', 'i', 'contador1', etc. <br />
 
 Responsabilidad única: Cada controlador debe tener una única responsabilidad bien definida. <br />
@@ -26,6 +27,6 @@ Separar la clases en archivos distintitos. Evita colocar varias clases en un sol
 Justificación del diseño: Se evaluará una presentación breve en la que expliques las relaciones entre las clases de tu diagrama UML. <br />
 
 ## **Autores**
-Santiago López Campos - A01643411
-Fernanda Reyes Martínez - A01637163
+Santiago López Campos - A01643411 <br />
+Fernanda Reyes Martínez - A01637163 <br />
 
