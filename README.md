@@ -12,8 +12,8 @@ La lógica del sistema debe estar organizada en distintas carpetas, siguiendo un
 - Vistas <br />
 - Controladores <br />
 - Modelo <br />
-- - Objetos <br />
-- - Clases DAO <br />
+  - Objetos <br />
+  - Clases DAO <br />
 - Conexión a la base de datos <br />
 Otras carpetas que consideres necesarias, como credenciales, imágenes o interfaces asociadas a un grupo específico.
 Nombres de variables y componentes: Deben ser claros y descriptivos. Evita nombres ambiguos como 'a', 'i', 'contador1', etc. <br />
